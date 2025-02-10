@@ -16,6 +16,7 @@
 #define BUFFER_SIZE 1024
 
 std::mutex cout_mutex;
+//
 
 void handle_server_messages(int server_socket) {
     char buffer[BUFFER_SIZE];
