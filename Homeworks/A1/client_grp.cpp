@@ -43,12 +43,14 @@ int main() {
         return 1;
     }
 
+    
+
     server_address.sin_family = AF_INET;
     server_address.sin_port = htons(12345);
     server_address.sin_addr.s_addr = inet_addr("127.0.0.1");
 
     if (connect(client_socket, (sockaddr*)&server_address, sizeof(server_address)) < 0) {
-        std::cerr << "Error connecting to server." << std::endl;
+        std::cerr << "Error connecting to server. " << std::endl;
         return 1;
     }
 

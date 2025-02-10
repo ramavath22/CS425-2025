@@ -131,7 +131,7 @@
   ```
   - If the group exists and the user is a member:
     ```
-    [Group CS425 ] Alice: Hello team!
+    [Group ] Alice: Hello team!
     ```
   - If the group does not exist:
     ```
