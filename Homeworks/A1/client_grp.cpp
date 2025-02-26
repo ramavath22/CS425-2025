@@ -107,3 +107,20 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+/*
+create git repo
+git remote -v
+shift remote to given url
+
+git init
+git add .
+git commit -m "msg"
+git push
+
+
+*/
